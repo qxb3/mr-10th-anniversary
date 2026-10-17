@@ -81,6 +81,7 @@ export default class Player {
       (_, index) => {
         return new Texture({
           source: texture.source,
+          // @ts-ignore
           frame: {
             x: index * this.tileSize,
             y: 0,

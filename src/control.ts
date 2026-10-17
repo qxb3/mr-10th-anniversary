@@ -1,5 +1,3 @@
-import Player from './player.ts'
-
 export type Direction =
   | 'up'
   | 'down'
